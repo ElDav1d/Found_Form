@@ -1,20 +1,24 @@
 .row {
 max-width: 85rem; }
 
-body {
+/**body {
     background-color: #ccc;
+} **/
+
+body {
+  background: #FFFFFF;
+  color: #292929;
+  font: 400 16px/1.5em "Lato", "Opens Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
 }
  
 /** Set the backgrounds for the different sections **/
 .header-area {
-    background-color: #2d465c;
-    min-height: 160px;
+   background-color: #E0E0E0;
+   height: 100px;
 }
  
-.navigation-area {
-    background-image: url('../img/navigation-container.jpg');
-    background-repeat: repeat-x;
-}
+
  
 .content-area {
     padding: 50px 0 70px 0;
@@ -30,4 +34,63 @@ body {
 .full-width {
     min-width:100%;
     position: relative;
+}
+
+.map {
+  width: 100%;
+  height: 312px;
+  padding-top: 0.5em;
+
+}
+
+/** Removes black background on menu bar **/
+
+.top-bar {
+	background: none;
+}
+
+
+ 
+/** Removes black background on menu item **/
+.top-bar-section li a:not(.button) {
+    background: none;
+    line-height: 58px;
+    padding: 0 27px;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h3, h4, p {
+  margin-bottom: 1.3em;
+
+}
+
+h1 {
+  margin-bottom: 0.3em;
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  font-weight: 900;
+  line-height: 1.3em;
+}
+
+h3 {
+  margin-bottom: 0.3em;
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+p {
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  line-height: 1.5em;
 }
