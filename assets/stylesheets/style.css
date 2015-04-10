@@ -118,13 +118,18 @@ p {
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
   -webkit-appearance: none;
   border-radius: 0;
+  background-color: #C8C8C8;
   font-family: inherit;
+  border-style: none;
   border-width: 1px;
   border-color: #cccccc;
+  box-shadow: none;
   color: rgba(0, 0, 0, 0.75);
   display: block;
   font-size: 0.875rem;
+  margin: 0 0 0.3rem 0;
   padding: 0.5rem;
+  height: 1.5rem;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
