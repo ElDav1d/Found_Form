@@ -109,7 +109,9 @@ p {
   Form custom
   ========================================
 */
-
+.a-bit-down {
+  margin-top: 0.4rem;
+}
 .align-left {
   padding-left: 0px;
 }
