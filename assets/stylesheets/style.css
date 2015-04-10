@@ -113,6 +113,13 @@ p {
 .align-left {
   padding-left: 0px;
 }
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  vertical-align: baseline; }
 
 /* We use this to get basic styling on all basic form elements */
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
