@@ -156,3 +156,15 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     cursor: default; }
   input[type="text"].radius, input[type="password"].radius, input[type="date"].radius, input[type="datetime"].radius, input[type="datetime-local"].radius, input[type="month"].radius, input[type="week"].radius, input[type="email"].radius, input[type="number"].radius, input[type="search"].radius, input[type="tel"].radius, input[type="time"].radius, input[type="url"].radius, input[type="color"].radius, textarea.radius {
     border-radius: 3px; }
+
+    /* Tooltips */
+.has-tip {
+  border-bottom: dotted 1px #CCCCCC;
+  cursor: help;
+  font-weight: bold;
+  color: #333333; }
+  .has-tip:hover, .has-tip:focus {
+    border-bottom: dotted 1px #003f54;
+    color: #008CBA; }
+  .has-tip.tip-left, .has-tip.tip-right {
+    float: none !important; }
