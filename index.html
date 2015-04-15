@@ -76,8 +76,8 @@
 		</div>
 		 
 		<!-- CONTENT AREA -->
-		<div class="full-width content-area">
-		    <div class="row">
+		<div class="full-width">
+		    <div class="content-area">
 
 		        <section class="large-4 medium-12 small-12 columns">
 		        	<h2>ESTOY AQUÍ</h2>
@@ -85,83 +85,87 @@
 		        	<div id="map" style="height: 200px"></div>
 		        	<p class="wildcard"> Calle Castellón, 21/3ª <br> Valencia, CP 46004 <br> +34 626 807 125 </p>  
 		        </section>
+
 		        <!--FORM A -->
 		        <form class="large-4 medium-6 small-12 columns">
+			      
 			      <h2>¿QUIÉN ERES?</h2>
 			      <p>Lorem fistrum pupita a gramenawer de la pradera. Papaar papaar hasta luego Lucas caballo blanco caballo negroorl está la cosa muy malar torpedo ese que llega sexuarl te voy a borrar el cerito al ataquerl te va a hasé pupitaa. Hasta luego Lucas papaar papaar ese que llega te va a hasé pupitaa. </p>
 			      
-			      <div class= "align-left large-6 medium-6 small-12 column">
-			      	<input type="radio" name="tipo" value="Particular" id="tipo">
-			      	<label class="wildcard" for="Particular">PARTICULAR</label>
-			      </div>
-			      <div class= "align-left large-6 medium-6 small-12 column">
-			      	<input type="radio" name="tipo" value="Empresa" id="tipo">
-			      	<label class="wildcard" for="Empresa">EMPRESA</label>
-			      </div>
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">NOMBRE
-			              <input type="text" type="text" name="Nombre"/>
-			            </label>
-			      </div>
+			      	<div class="row collapse">
+				      <div class= " large-6 medium-6 small-12 column left_column">
+				      	<input type="radio" name="tipo" value="Particular" id="tipo">
+				      	<label class="wildcard" for="Particular">PARTICULAR</label>
+				      </div>
+				      <div class= " large-6 medium-6 small-12 column right_column">
+				      	<input type="radio" name="tipo" value="Empresa" id="tipo">
+				      	<label class="wildcard" for="Empresa">EMPRESA</label>
+				      </div>
+				      <div class=" large-6 columns left_column">
+				            <label class="wildcard">NOMBRE
+				            </label>
+				              <input type="text" type="text" name="Nombre" class="columns"/>
+				      </div>
 
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">APELLIDOS
-			              <input type="text" name="Apellidos"/>
-			            </label>
-			      </div>
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">EMPRESA
-			              <input type="text" name="Empresa"/>
-			            </label>
-			      </div>
+				      <div class=" large-6 columns right_column">
+				            <label class="wildcard">APELLIDOS
+				            </label>
+				              <input type="text" name="Apellidos"/>
+				      </div>
+				      <div class="large-6 columns left_column">
+				            <label class="wildcard">EMPRESA
+				              <input type="text" name="Empresa"/>
+				            </label>
+				      </div>
 
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">CIF
-			              <input type="text" type="text" name="CIF"/>
-			            </label>
-			      </div>
+				      <div class="large-6 columns right_column">
+				            <label class="wildcard">CIF
+				              <input type="text" type="text" name="CIF"/>
+				            </label>
+				      </div>
 
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">LOCALIDAD
-			              <input type="text" name="Localidad"/>
-			            </label>
-			      </div>
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">CÓDIGO POSTAL
-			              <input type="text" name="CP"/>
-			            </label>
-			      </div>
-			      <div class="align-left large-12 columns">
-			            <label class="wildcard">PROVINCIA (y/o estado)
-			              <input type="text" name="Provincia"/>
-			            </label>
-			      </div>
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">E-MAIL
-			              <input type="email" name="E-mail"/>
-			            </label>
-			      </div>
-			      <div class="align-left large-6 columns">
-			            <label class="wildcard">TELÉFONO DE CONTACTO
-			              <input type="tel" name="Telefono"/>
-			            </label>
-			      </div>
+				      <div class="large-6 columns left_column">
+				            <label class="wildcard">LOCALIDAD
+				              <input type="text" name="Localidad"/>
+				            </label>
+				      </div>
+				      <div class="large-6 columns right_column">
+				            <label class="wildcard">CÓDIGO POSTAL
+				              <input type="text" name="CP"/>
+				            </label>
+				      </div>
+				      <div class="align-left large-12 columns">
+				            <label class="wildcard">PROVINCIA (y/o estado)
+				              <input type="text" name="Provincia"/>
+				            </label>
+				      </div>
+				      <div class="align-left large-6 columns">
+				            <label class="wildcard">E-MAIL
+				              <input type="email" name="E-mail"/>
+				            </label>
+				      </div>
+				      <div class="align-left large-6 columns">
+				            <label class="wildcard">TELÉFONO DE CONTACTO
+				              <input type="tel" name="Telefono"/>
+				            </label>
+				      </div>
+
+				      <select class= id="contactDropdown">
+				        <option DISABLED>How did you find us?</option>
+				        <option>Google</option>
+				        <option>A friend told me</option>
+				        <option>Not sure, where am I?</option>
+				      </select>
+
+				      <div class="align-left large-12 columns">
+				            <label class="wildcard">ACTIVIDAD</label>
+				            <textarea class="has-tip" title="Tira de la esquina inferior derecha para que puedas leer mejor" data-tooltip="" data-width="300"name="Actividad">Cuéntame a qué te dedicas o qué vendes.</textarea>
+				      </div>
+
+			  		</div>        
 			      
-			      <select id="contactDropdown">
-			        <option DISABLED>How did you find us?</option>
-			        <option>Google</option>
-			        <option>A friend told me</option>
-			        <option>Not sure, where am I?</option>
-			      </select>
-
-			      <div class="align-left large-12 columns">
-			            <label class="wildcard">ACTIVIDAD</label>
-			            <textarea class="has-tip" title="Tira de la esquina inferior derecha para que puedas leer mejor" data-tooltip="" data-width="300"name="Actividad">Cuéntame a qué te dedicas o qué vendes.</textarea>
-
-			            
-			      </div>
- 
 			    </form>
+
 
 			     <!--FORM B -->
 
