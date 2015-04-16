@@ -4067,7 +4067,7 @@ blockquote p {
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
 
-/*.tooltip {
+.tooltip {
   display: none;
   position: absolute;
   z-index: 1006;
@@ -4101,7 +4101,7 @@ blockquote p {
       left: 2rem; }
   .tooltip.opened {
     color: #008CBA !important;
-    border-bottom: dotted 1px #003f54 !important; }*/
+    border-bottom: dotted 1px #003f54 !important; }
 
 .tap-to-close {
   display: block;

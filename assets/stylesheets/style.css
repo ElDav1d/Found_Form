@@ -154,7 +154,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   height: 1.5rem;
   width: 100%; }
 
-/*.has-tip {
+.has-tip {
   border-bottom: dotted 1px #CCCCCC;
   cursor: help;
   font-weight: 100;
@@ -168,4 +168,19 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   font-weight: 400;
   font-size: 0.9rem;
   color: #fafafa;
-  background: #292929; }*/
+  background: #292929; }
+
+
+.my-custom-theme {
+  border-radius: 5px; 
+  border: 2px solid #000;
+  background: #FFFFFF;
+  color: #fff;
+}
+
+.my-custom-theme .tooltipster-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 8px 10px;
+}
