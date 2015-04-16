@@ -197,7 +197,7 @@ strong,
 .user-comments {
 
   color: #292929;
-  font-size: 0.8em;
+  font-size: 0.8em !important;
   font-weight: 100;
   line-height: 1.3em;
   padding: 7px;
