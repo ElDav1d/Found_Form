@@ -154,7 +154,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   height: 1.5rem;
   width: 100%; }
 
-.has-tip {
+/*.has-tip {
   border-bottom: dotted 1px #CCCCCC;
   cursor: help;
   font-weight: 100;
@@ -168,4 +168,4 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   font-weight: 400;
   font-size: 0.9rem;
   color: #fafafa;
-  background: #292929; }
+  background: #292929; }*/
