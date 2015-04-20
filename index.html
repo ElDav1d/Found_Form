@@ -4,20 +4,17 @@
 		<meta charset="utf-8" />
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />	
 		<title></title>
-		<link rel="stylesheet" href="assets/stylesheets/foundation/foundation.css" />
 		<link rel="stylesheet" href="assets/stylesheets/foundation/normalize.css" />
-		<link rel="stylesheet" href="assets/stylesheets/style.css" />
-	    <link rel="stylesheet" href="assets/stylesheets/leaflet/leaflet.css" />
+		<link rel="stylesheet" href="assets/stylesheets/foundation/foundation.css" />
 	    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,400italic,900italic' rel='stylesheet' type='text/css'>
-	    <script src="assets/scripts/vendor/modernizr.js"></script>
+
+	    <link rel="stylesheet" href="assets/stylesheets/leaflet/leaflet.css" />
 	    <link rel="stylesheet" type="text/css" href="assets/stylesheets/tooltipster.css" />
-
 	    <link rel="stylesheet" type="text/css" href="assets/stylesheets/jquery.datetimepicker.css"/ >
-	    <script src="assets/scripts/vendor/jqueryDT.js"></script>
-	    <script src="assets/scripts/vendor/jquery.datetimepicker.js"></script>
-	   
-	  
+		<link rel="stylesheet" href="assets/stylesheets/style.css" />
 
+	    <script src="assets/scripts/vendor/modernizr.js"></script>
+		<script src="assets/scripts/vendor/jquery.js"></script>
 	</head>
 
 	<body>
@@ -59,8 +56,8 @@
 		 </div>
 		
 		<!-- CONTENT AREA -->
-		<div class="full-width">
-		    <div class="content-area respect-header">
+		<div class="full-width respect-header">
+		    <div class="content-area">
 
 		        <section class="large-4 medium-12 small-12 columns">
 		        	<h2>ESTOY AQUÍ</h2>
@@ -208,9 +205,9 @@
 
 					      <div class="align-left large-6 columns">
 					            <label class="wildcard">¿CUÁNDO LO QUIERES?
-					              <input type="date" name="Deadline"/>
+					              <input id="datetimepicker" type="text" name="Deadline"/>
 					            </label>
-					      </div>
+					      </div>					      
 					      <div class="align-left large-6 columns">
 					      	<input class="button small right a-bit-down" type="submit" value="ENVIAR" />
 					      </div>
@@ -240,24 +237,30 @@
 
 			
 
-		<script src="assets/scripts/vendor/jquery.js"></script>
 		<script src="assets/scripts/foundation/foundation.min.js"></script>
 		<script type="text/javascript" src="assets/scripts/leaflet/leaflet-src.js"></script>
 		<script type="text/javascript" src="assets/scripts/vendor/jquery.tooltipster.min.js"></script>
+	    <script src="assets/scripts/vendor/jquery.datetimepicker.js"></script>
+
 		<script>
 			$(document).foundation();
 		</script>
 		<script>
-		       $(document).ready(function() {
-		           $('.my_tooltip').tooltipster({
-		           	 animation: 'fall',
-		           	 speed: 1800,
-		           	 theme: 'my-custom-theme',
-		           	 functionAfter: function (){window.alert('boooooo');}
-		           });
-		       });
+			$(document).ready(function() {
+			   $('.my_tooltip').tooltipster({
+			   	 animation: 'fall',
+			   	 speed: 1800,
+			   	 theme: 'my-custom-theme',
+			   	 //functionAfter: function (){window.alert('boooooo');}
+			   });
+			});
 		</script>
 		<script type="text/javascript" src="assets/scripts/app.js"></script>
+		<script>
+			$(document).ready(function() {
+			   $('#datetimepicker').datetimepicker();
+			});
+		</script>
 	</body>
 
 	

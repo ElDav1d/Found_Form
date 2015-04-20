@@ -17,7 +17,7 @@ body {
 .header-area {
    background-color: #E0E0E0;
    height: 100px;
-   margin-bottom; 10px;
+   margin-bottom: 10px;
 }
  
 .content-area {
@@ -26,8 +26,9 @@ body {
     margin: 0 auto 0 auto;
 }
 
+
 .respect-header {
-  margin-top: 80px;
+    padding-top: 80px;
 }
  
 .footer-area {
