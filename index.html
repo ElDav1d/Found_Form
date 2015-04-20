@@ -205,7 +205,7 @@
 
 					      <div class="align-left large-6 columns">
 					            <label class="wildcard">¿CUÁNDO LO QUIERES?
-					              <input id="datetimepicker" type="text" name="Deadline"/>
+					              <input id="datetimepicker1" type="text" name="Deadline"/>
 					            </label>
 					      </div>					      
 					      <div class="align-left large-6 columns">
@@ -258,8 +258,23 @@
 		<script type="text/javascript" src="assets/scripts/app.js"></script>
 		<script>
 			$(document).ready(function() {
-			   $('#datetimepicker').datetimepicker();
-			});
+			   $('#datetimepicker1').datetimepicker({
+				 lang:'es',
+				 i18n:{
+					 	es: { 
+						months: [
+						"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+						],
+						dayOfWeek: [
+						"Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"
+								]
+					  		}
+						},
+				 timepicker:true,
+				 format:'d.m.Y'
+				});
+			 });
+
 		</script>
 	</body>
 
