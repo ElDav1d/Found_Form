@@ -192,10 +192,6 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding: 8px 10px;
 }
 
-.my_dropdown .dropdown-toggle{
-  height: 1.5rem;
-  padding: 0.5rem;
-  }
 
 button, .button {
   border-style: solid;
@@ -241,7 +237,8 @@ button, .button {
   border-bottom: 2px solid #ccc;
 }
 
-/*timepicker*/
+/*timepicker .mycalendar*/
+
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_timepicker .xdsoft_time_box >div >div {
   background: #C8C8C8;
   border-top: 2px solid #ccc;
@@ -329,3 +326,52 @@ button, .button {
 .xdsoft_mycalendar .xdsoft_scrollbar >.xdsoft_scroller {
   background: #999 !important;
 }
+
+/*button .my_dropdown*/
+
+.dropdown .dropdown-toggle{
+  margin-top: 0;
+  padding: 0.5rem;
+  font-weight: 100;
+  font-size: 0.9rem;
+  height: 1.5rem;
+  color: #292929;
+  line-height: 1.2rem; }
+}
+
+.dropdown-title {
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  line-height: 20px;
+  min-height: 20px;
+  padding: 5px 45px 10px;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.dropdown-toggle {
+  cursor: default;
+  color: #fff ;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #c8c8c8;
+  -webkit-border-radius: none;
+  -moz-border-radius: none;
+  border-radius: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+.dropdown-selected {
+
+}
+
+.dropdown-menu-wrapper {
+  font-size: 0.9rem !important;
+  background: #c8c8c8
+;}
