@@ -197,6 +197,30 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding: 0.5rem;
   }
 
+button, .button {
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font:"Lato", "Opens Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #428bca;
+  border-color: none;
+  color: #FFFFFF;
 
 /*
   ========================================
@@ -278,7 +302,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_current,
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current {
-  background: #008CBA;
+  background: #428bca;
   box-shadow: none;
   color: #000;
 }
