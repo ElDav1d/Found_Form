@@ -221,7 +221,7 @@ button, .button {
   background-color: #428bca;
   border-color: none;
   color: #FFFFFF;
-
+}
 /*
   ========================================
   Datetimepicker custom "mycalendar"
@@ -229,35 +229,35 @@ button, .button {
 */
 
 .xdsoft_datetimepicker.xdsoft_mycalendar {
+
   box-shadow: 0 5px 15px -5px rgba(255, 255, 255, 0.506);
-  background: #000;
-  border-bottom: 1px solid #444;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
-  border-top: 1px solid #333;
-  color: #ccc;
+  background: #C8C8C8;
+  border:none;
+  color: #999;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_timepicker .xdsoft_time_box {
-  border-bottom: 1px solid #222;
+  border-bottom: 2px solid #ccc;
 }
+
+/*timepicker*/
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_timepicker .xdsoft_time_box >div >div {
-  background: #0a0a0a;
-  border-top: 1px solid #222;
+  background: #C8C8C8;
+  border-top: 2px solid #ccc;
   color: #999;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_label {
-  background-color: #000;
+  background-color: #C8C8C8;
 }
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_label > .xdsoft_select {
-  border: 1px solid #333;
-  background: #000;
+  border: 2px solid #ccc;
+  background: #C8C8C8;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_label > .xdsoft_select > div > .xdsoft_option:hover {
   color: #000;
-  background: #007fff;
+  background: #428bca;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
@@ -275,28 +275,28 @@ button, .button {
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td,
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar th {
-  background: #0a0a0a;
-  border: 1px solid #222;
+  background: #C8C8C8;
+  border: 2px solid #ccc;
   color: #999;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar th {
-  background: #0e0e0e;
+  background: #C8C8C8;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_today {
-  color: #cc5500;
+  color: #292929;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_highlighted_default {
   background: #ffe9d2;
   box-shadow: #ffb871 0 1px 4px 0 inset;
-  color:#000;
+  color:#C8C8C8;
 }
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_highlighted_mint {
   background: #c1ffc9;
   box-shadow: #00dd1c 0 1px 4px 0 inset;
-  color:#000;
+  color:#C8C8C8;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_default,
@@ -304,7 +304,7 @@ button, .button {
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_timepicker .xdsoft_time_box >div >div.xdsoft_current {
   background: #428bca;
   box-shadow: none;
-  color: #000;
+  color: #fff;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td:hover,
@@ -314,7 +314,7 @@ button, .button {
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar th {
-  color: #666;
+  color: #999;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_copyright { color: #333 !important }
@@ -322,7 +322,7 @@ button, .button {
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_copyright a:hover { color: #555 !important }
 
 .xdsoft_mycalendar .xdsoft_time_box {
-  border: 1px solid #333;
+  border: 2px solid #ccc;
 }
 
 .xdsoft_mycalendar .xdsoft_scrollbar >.xdsoft_scroller {
