@@ -229,8 +229,9 @@ button, .button {
 */
 
 .xdsoft_datetimepicker.xdsoft_mycalendar {
+/*container*/
 
-  box-shadow: 0 5px 15px -5px rgba(255, 255, 255, 0.506);
+  box-shadow: none;
   background: #C8C8C8;
   border:none;
   color: #999;
@@ -261,9 +262,9 @@ button, .button {
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_label > .xdsoft_select > div > .xdsoft_option.xdsoft_current {
-  background: #cc5500;
-  box-shadow: #b03e00 0 1px 3px 0 inset;
-  color: #000;
+  background: #999;
+  box-shadow: none;
+  color: #fff;
 }
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_label i,
@@ -290,12 +291,12 @@ button, .button {
 
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_highlighted_default {
   background: #ffe9d2;
-  box-shadow: #ffb871 0 1px 4px 0 inset;
+  box-shadow: none;
   color:#C8C8C8;
 }
 .xdsoft_datetimepicker.xdsoft_mycalendar .xdsoft_calendar td.xdsoft_highlighted_mint {
   background: #c1ffc9;
-  box-shadow: #00dd1c 0 1px 4px 0 inset;
+  box-shadow: none;
   color:#C8C8C8;
 }
 
@@ -326,5 +327,5 @@ button, .button {
 }
 
 .xdsoft_mycalendar .xdsoft_scrollbar >.xdsoft_scroller {
-  background: #333 !important;
+  background: #999 !important;
 }
