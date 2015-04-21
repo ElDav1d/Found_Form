@@ -154,11 +154,12 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   box-shadow: none;
   color: rgba(0, 0, 0, 0.75);
   display: block;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   margin: 0 0 0.3rem 0;
   padding: 0.5rem;
   height: 1.5rem;
-  width: 100%; }
+  width: 100%;
+  line-height: 1.2rem; }
 
 .has-tip {
   border-bottom: dotted 1px #CCCCCC;
@@ -192,5 +193,5 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 
 .my_dropdown {
-  
+
 }
