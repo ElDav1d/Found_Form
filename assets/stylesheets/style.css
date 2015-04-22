@@ -156,7 +156,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   display: block;
   font-size: 0.9rem;
   margin: 0 0 0.3rem 0;
-  padding: 0.5rem;
+  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
   height: 1.5rem;
   width: 100%;
   line-height: 1.2rem; }
@@ -331,7 +331,7 @@ button, .button {
 
 .dropdown .dropdown-toggle{
   margin-top: 0;
-  padding: 0.5rem;
+  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
   font-weight: 100;
   font-size: 0.9rem;
   height: 1.5rem;
