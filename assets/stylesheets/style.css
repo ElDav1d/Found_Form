@@ -80,6 +80,11 @@ line-height: 50px;
 
 }
 
+ .top-bar .name h1 a #gremio{
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1em;
+}
 
 /*
 
@@ -128,6 +133,7 @@ p {
   font-weight: 100;
   line-height: 1.6rem;
 }
+
 
 /*
   ========================================
