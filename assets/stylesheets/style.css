@@ -112,7 +112,48 @@ font-weight: 900;
 color: #fff;
   }
 }
-      
+
+/*
+
+
+  ========================================
+  Parent Links
+  ========================================
+*/
+
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  font-size: 100%;
+  line-height: 4.5rem;  
+  color: #c8c8c8;
+  background-color:transparent;
+}
+
+.top-bar-section ul li {
+  background-color: transparent;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  font-size: 100%;
+  line-height: 4.5rem;
+  background-color: transparent;
+  line-height: 2rem; 
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  font-size: 100%;
+  line-height: 4.5rem;
+  background-color: transparent;
+}
+
+.top-bar-section .dropdown {
+  min-width: 134%;
+}
+
+.top-bar-section .right li .dropdown {
+  left: auto;
+  right: auto;
+}
 /*
 
 
