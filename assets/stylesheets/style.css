@@ -72,20 +72,23 @@ body {
   background: none;
 }
 
-.top-bar .name h1 a {
+#gremio {
 
+font-size: 2rem;
+font-weight: 100;
+line-height: 50px;
+color: #c8c8c8;
+
+}
+
+
+.top-bar .name h1 a{
 font-size: 3rem;
 font-weight: 900;
-line-height: 50px;
-
+color: #fff;
 }
 
- .top-bar .name h1 a #gremio{
-  font-size: 3rem;
-  font-weight: 100;
-  line-height: 1em;
-}
-
+      
 /*
 
 
