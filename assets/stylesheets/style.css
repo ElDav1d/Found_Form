@@ -72,22 +72,39 @@ body {
   background: none;
 }
 
+@media only screen and (min-width: 64.063rem) {
 #gremio {
-
 font-size: 2rem;
 font-weight: 100;
 line-height: 50px;
 color: #c8c8c8;
-
+  }
 }
 
+@media only screen and (max-width: 64.063rem) {
+#gremio {
+font-size: 1.3rem;
+font-weight: 100;
+line-height: 50px;
+color: #c8c8c8;
+  }
+}
 
+@media only screen and (min-width: 64.063rem) {
 .top-bar .name h1 a{
 font-size: 3rem;
 font-weight: 900;
 color: #fff;
+  }
 }
 
+@media only screen and (max-width: 64.063rem) {
+.top-bar .name h1 a{
+font-size: 2rem;
+font-weight: 900;
+color: #fff;
+  }
+}
       
 /*
 
