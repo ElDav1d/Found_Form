@@ -26,9 +26,16 @@ body {
     margin: 0 auto 0 auto;
 }
 
-
+@media only screen and (min-width: 64.063rem) {
 .respect-header {
-  padding-top: 70px;
+  padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 64.063rem) {
+.respect-header {
+  padding-top: 65px;
+  }
 }
  
 .footer-area {
@@ -85,7 +92,7 @@ color: #c8c8c8;
 #gremio {
 font-size: 1.3rem;
 font-weight: 100;
-line-height: 50px;
+line-height: 70px;
 color: #c8c8c8;
   }
 }
