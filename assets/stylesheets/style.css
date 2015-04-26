@@ -124,7 +124,7 @@ color: #fff;
 
 .top-bar-section li:not(.has-form) a:not(.button) {
   font-size: 100%;
-  line-height: 4.5rem;  
+  line-height: 1.9rem;  
   color: #c8c8c8;
   background-color:transparent;
 }
@@ -140,9 +140,29 @@ color: #fff;
   line-height: 2rem; 
 }
 
+@media only screen and (min-width: 64.063rem) {
+.top-bar-section ul, .top-bar-section li, .top-bar-section a {
+  height: 30px !important;
+  display: inline-block !important;
+  position: relative !important;
+  top: 7px !important;
+
+  }
+}
+
+@media only screen and (max-width: 64.063rem) {
+.top-bar-section ul, .top-bar-section li, .top-bar-section a {
+  height: 30px !important;
+  display: inline-block !important;
+  position: relative !important;
+  top: 0.46rem !important;
+
+  }
+}
+
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   font-size: 100%;
-  line-height: 4.5rem;
+  line-height: 1.9rem;
   background-color: transparent;
 }
 
@@ -155,17 +175,7 @@ color: #fff;
   right: auto;
 }
 
-.top-bar-section ul {
-  height: 50px !important;
-}
 
-.top-bar-section li {
-  height: 50px !important;
-}
-
-.top-bar-section a {
-  height: 50px !important;
-}
 
 /*
 
@@ -306,7 +316,7 @@ button, .button {
   
   font-weight: normal;
   line-height: normal;
-  margin: 0 0 1.25rem;
+ 
   position: relative;
   text-decoration: none;
   text-align: center;
