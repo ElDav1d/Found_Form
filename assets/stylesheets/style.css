@@ -154,6 +154,19 @@ color: #fff;
   left: auto;
   right: auto;
 }
+
+.top-bar-section ul {
+  height: 50px !important;
+}
+
+.top-bar-section li {
+  height: 50px !important;
+}
+
+.top-bar-section a {
+  height: 50px !important;
+}
+
 /*
 
 
